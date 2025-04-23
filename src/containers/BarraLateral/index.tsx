@@ -1,3 +1,3 @@
-const barraLateral = () => <aside>Barra Lateral</aside>
+const BarraLateral = () => <aside>Barra Lateral</aside>
 
-export default barraLateral
+export default BarraLateral
