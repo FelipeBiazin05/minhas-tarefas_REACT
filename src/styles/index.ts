@@ -1,10 +1,16 @@
-import { createGlobalStyle } from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components'
 
-const estiloGlobal = createGlobalStyle`
+const EstiloGlobal = createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Roboto, sans-serif;
   }
 `
-export default estiloGlobal
+export const Container = styled.div`
+  display: grid;
+  grid-template-columns: 224px auto;
+`
+
+export default EstiloGlobal
