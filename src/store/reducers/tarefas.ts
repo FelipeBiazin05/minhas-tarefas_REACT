@@ -27,7 +27,7 @@ const initialState = {
       descricao: 'Cumprir os exercicios que foram passados hoje',
       prioridade: enums.Prioridade.IMPORTANTE,
       status: enums.Status.PENDENTE,
-      titulo: 'Estudar Inglês'
+      titulo: 'Estudar TypeScript'
     }
   ]
 }
