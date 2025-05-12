@@ -1,4 +1,6 @@
 import styled, { createGlobalStyle } from 'styled-components'
+import { Botao } from '../components/Tarefa/styles'
+import variaveis from './variaveis'
 
 const EstiloGlobal = createGlobalStyle`
   * {
@@ -26,6 +28,10 @@ export const Titulo = styled.h2`
   margin-bottom: 40px;
   font-size: 18px;
   font-weight: bold;
+`
+
+export const BotaoSalvar = styled(Botao)`
+  background-color: ${variaveis.verde};
 `
 
 export default EstiloGlobal
