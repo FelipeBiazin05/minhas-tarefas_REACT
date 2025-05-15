@@ -1,11 +1,15 @@
 import { useDispatch, useSelector } from 'react-redux'
-import FiltroCard from '../../components/FiltroCard'
-import * as S from './styles'
 import { RootReducer } from '../../store'
 import { alterarTermo } from '../../store/reducers/filtro'
-import * as enums from '../../utils/enums/Tarefa'
+
+import * as S from './styles'
 import { Campo } from './styles'
 import { Botao } from '../../styles'
+
+import FiltroCard from '../../components/FiltroCard'
+
+import * as enums from '../../utils/enums/Tarefa'
+
 import { useNavigate } from 'react-router-dom'
 
 type Props = {

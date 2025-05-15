@@ -1,7 +1,8 @@
 import styled from 'styled-components'
-import variaveis from '../../styles/variaveis'
-import * as enums from '../../utils/enums/Tarefa'
 import { Botao } from '../../styles'
+import variaveis from '../../styles/variaveis'
+
+import * as enums from '../../utils/enums/Tarefa'
 
 type TagProps = {
   prioridade?: enums.Prioridade

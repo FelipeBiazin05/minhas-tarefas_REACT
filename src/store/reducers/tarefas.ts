@@ -1,5 +1,7 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
+
 import Tarefa from '../../models/tarefa'
+
 import * as enums from '../../utils/enums/Tarefa'
 
 type TarefasState = {

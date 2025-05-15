@@ -1,9 +1,9 @@
 import { Provider } from 'react-redux'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import store from './store'
 
 import EstiloGlobal, { Container } from './styles'
 
-import store from './store'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './pages/home'
 import Cadastro from './pages/cadastro'
 

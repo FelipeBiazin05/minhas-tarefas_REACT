@@ -1,11 +1,14 @@
 import { FormEvent, useState } from 'react'
+
+import { useDispatch } from 'react-redux'
+import { cadastrar } from '../../store/reducers/tarefas'
+
 import { BotaoSalvar, MainContainer, Titulo } from '../../styles'
 import { Campo } from '../BarraLateral/styles'
 import { Form, Opcoes, Opcao } from './styles'
-import { useDispatch } from 'react-redux'
+
 import * as enums from '../../utils/enums/Tarefa'
 
-import { cadastrar } from '../../store/reducers/tarefas'
 import { useNavigate } from 'react-router-dom'
 
 const Formulario = () => {

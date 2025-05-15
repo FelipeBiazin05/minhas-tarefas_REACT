@@ -1,11 +1,13 @@
 import { ChangeEvent, useEffect, useState } from 'react'
+
 import { useDispatch } from 'react-redux'
+import { alteraStatus, editar, remover } from '../../store/reducers/tarefas'
 
 import * as S from './styles'
-
-import { alteraStatus, editar, remover } from '../../store/reducers/tarefas'
-import TarefaClass from '../../models/tarefa'
 import { Botao, BotaoSalvar } from '../../styles'
+
+import TarefaClass from '../../models/tarefa'
+
 import * as enums from '../../utils/enums/Tarefa'
 
 type Props = TarefaClass

@@ -1,7 +1,9 @@
 import Tarefa from '../../components/Tarefa'
-import { MainContainer, Titulo } from '../../styles'
+
 import { useSelector } from 'react-redux'
 import { RootReducer } from '../../store'
+
+import { MainContainer, Titulo } from '../../styles'
 
 const ListaDeTarefas = () => {
   const { itens } = useSelector((state: RootReducer) => state.tarefas)
